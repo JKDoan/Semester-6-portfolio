@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Page Title</title>
+    <meta name="author" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="styles/deliverables.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="cursor"></div>
+
+    <div id="hamburgerMenu">
+      <span id="close">&times;</span>
+      <a href="index.html"><li id="homeMenu">Home</li></a>
+      <a href="leeswijzer.html"><li id="leeswijzerMenu">Leeswijzer</li></a>
+      <a href="index.html#deliverables"><li id="deliMenu">Deliverables</li></a>
+    </div>
+
+    <button id="showMenu">
+      <img src="images/hamburgermenu.png" width="70px" />
+    </button>
+
+    <ul>
+      <li><a href="index.html">hi</a></li>
+      <li id="deli"><a>Deliverables</a></li>
+      <li id="leeswijzer"><a href="leeswijzer.html">Leeswijzer</a></li>
+      <li id="home"><a href="index.html">Home</a></li>
+    </ul>
+
+    <div id="deliverables">
+      <p id="deliverableHeader">Deliverables</p>
+
+      <div id="listDeliverables">
+        <div id="firstRow">
+          <div id="firstDeli">
+            <a href="portfolio.html">
+              <img
+                class="image"
+                src="images/portfolio.png"
+                height="80%"
+                width="100%"
+              />
+            </a>
+            <p class="titleDeli" id="firstDeliTitle">Portfolio</p>
+            <p id="firstDeliDesc">Individuele project</p>
+          </div>
+
+          <div id="secondDeli">
+            <a href="simac.html">
+              <img
+                class="image"
+                src="images/simac.png"
+                height="80%"
+                width="100%"
+              />
+            </a>
+            <p class="titleDeli" id="secondDeliTitle">Simac groepsproject</p>
+            <p id="secondDeliDesc">
+              Narrowcasting systeem voor stimuleren van motivatie
+            </p>
+          </div>
+        </div>
+
+        <div id="thirdRow">
+          <div id="thirdDeli">
+            <a href="international.html">
+              <img
+                class="image"
+                src="images/international.jpg"
+                height="80%"
+                width="100%"
+              />
+            </a>
+            <p class="titleDeli" id="thirdDeliTitle">
+              Internationale groepsproject
+            </p>
+            <p id="thirdDeliDesc">Voeg later</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="js/deliverable.js"></script>
+</html>

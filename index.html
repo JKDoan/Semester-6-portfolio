@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8" />
+    <title>Hi!</title>
+    <meta name="author" content="" />
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="styles/style.css" rel="stylesheet" />
+  </head>
+
+  <body>
+    <div class="cursor"></div>
+
+    <div id="hamburgerMenu">
+      <span id="close">&times;</span>
+      <a href="index.html"><li id="homeMenu">Home</li></a>
+      <a href="leeswijzer.html"><li id="leeswijzerMenu">Leeswijzer</li></a>
+      <a href="index.html#deliverables"><li id="deliMenu">Deliverables</li></a>
+    </div>
+
+    <button id="showMenu">
+      <img src="images/hamburgermenu.png" width="70px" />
+    </button>
+
+    <ul>
+      <li><a href="index.html">Jenny Doan</a></li>
+      <li id="deli"><a href="index.html#deliverables">Deliverables</a></li>
+      <li id="leeswijzer"><a href="leeswijzer.html">Leeswijzer</a></li>
+      <li id="home"><a href="index.html">Home</a></li>
+    </ul>
+
+    <div id="landing">
+      <div id="intro">
+        <p id="headertext">Hey, ik ben Jenny!</p>
+        <p id="description">
+          Ik ben een creatieveling die graag meer leert over dingen om mijn
+          vaardigheden uit te breidden! :)
+        </p>
+        <button id="leeswijzerButton">
+          <a href="leeswijzer.html">Leeswijzer</a>
+        </button>
+      </div>
+    </div>
+
+    <div id="scroll-indicator">
+      <a href="#deliverables">
+        <div id="mouse">
+          <div id="mousewheel"></div>
+        </div>
+      </a>
+    </div>
+
+    <div id="deliverables">
+      <p id="deliverableHeader">Deliverables</p>
+
+      <div id="listDeliverables">
+        <div id="firstRow">
+          <div id="firstDeli">
+            <a href="portfolio.html">
+              <img
+                class="image"
+                src="images/portfolio.png"
+                height="80%"
+                width="100%"
+              />
+
+              <p class="titleDeli" id="firstDeliTitle">
+                Individuele project - portfolio
+              </p>
+              <p id="firstDeliDesc">
+                Individuele project om mijn opleveringen te laten zien
+              </p>
+            </a>
+          </div>
+
+          <div id="secondDeli">
+            <a href="simac.html">
+              <img
+                class="image"
+                src="images/simac.png"
+                height="80%"
+                width="100%"
+              />
+
+              <p class="titleDeli" id="secondDeliTitle">
+                Groepsproject - Simac
+              </p>
+              <p id="secondDeliDesc">
+                Applicatie om complimenten aan werknemers te bevorderen
+              </p>
+            </a>
+          </div>
+        </div>
+
+        <div id="thirdRow">
+          <div id="thirdDeli">
+            <a href="international.html">
+              <img
+                class="image"
+                src="images/international.jpg"
+                height="50%%"
+                width="100%"
+              />
+
+              <p class="titleDeli" id="thirdDeliTitle">
+                Internationale project - Woonbedrijf
+              </p>
+              <p id="thirdDeliDesc">
+                Groepsproject met internationale studenten
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="overmij">
+      <div>
+        <img src="images/me.png" id="picofme" />
+      </div>
+
+      <div id="descofme">
+        <p id="overmijtext">Over mij</p>
+        <div id="desc">
+          <p>
+            Hi! Mijn naam is Jenny Kim Doan, 22 jaar en woon sinds vorig jaar in
+            Tilburg.
+          </p>
+          <p>
+            Ik studeer ICT & Media op Fontys in Eindhoven, en richt me vooral op
+            web-developement en front-end. Natuurlijk sta ik altijd voor om
+            verschillende, nieuwe dingen te proberen! Voor de rest vindt ik het
+            ook leuk om te gamen en tekenen. :)
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div id="contact">
+      <p id="contactHeader">Persoonlijk een gesprekje hebben met mij?</p>
+      <div id="sociallinks">
+        <a href="https://www.linkedin.com/in/jkdoan/">
+          <img class="socials" src="images/linkedin.png" />
+        </a>
+
+        <a href="mailto:jennykimdoan@gmail.com">
+          <img class="socials" src="images/mail.png" />
+        </a>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
